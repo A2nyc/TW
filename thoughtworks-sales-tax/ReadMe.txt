@@ -1,8 +1,6 @@
 #######################################
 #	Ariel Espinal
 #	kazzan0vah@gmail.com
-#	(516)404-0058
-#	New Hyde Park, NY.
 #######################################
 
 How to Run
