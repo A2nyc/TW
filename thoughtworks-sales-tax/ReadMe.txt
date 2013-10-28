@@ -34,16 +34,16 @@ Assumptions
 The input text file follows the following syntax:
     1 book at 12.49
     qty, name, "at", price
-Product Quanity is a whole positive number
+Product Quantity is a whole positive number
 Price is a positive number
 Items to be excluded from the goods sales tax (10%) is included in a text file called exclusions.txt placed in the root directory of this script.
 Imported items have the word 'imported' in them.
 Flow
 
 A high level flow of how this application works is as follows:
-1. User runs runtax.rb with the text file of their choice located in the input directory.
+1. User runs tw-salestax.rb with the text file of their choice located in the input directory.
 
-2. runtax.rb runs and calls /lib/input where the text file is loaded and turned into an array and then the following occurs:
+2. tw-salestax.rb runs and calls /lib/input where the text file is loaded and turned into an array and then the following occurs:
 
 text file:
 
@@ -115,4 +115,4 @@ Calculator - where the readable format taken from input is used to calculate the
 
 Print - where the input, revised input and total values are taken to be outputted
 
-I have been studying 3 different languages in the past year which include C, Java,and Ruby. I have decided to use ruby since it is a more easier/powerful way to do this project with a bit of ease. This has been a challenge for me since I actually started learning ruby 3 months ago. I'm a quick learner and I hope I can portray that in this exersize. 
+I have been studying 3 different languages in the past year which include C, Java,and Ruby. I have decided to use ruby since it is a more easier/powerful way to do this project with a bit of ease. This has been a challenge for me since I actually started learning ruby 3 months ago. I'm a quick learner and I hope I can portray that in this exercise. 
